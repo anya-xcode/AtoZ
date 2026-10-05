@@ -1,0 +1,73 @@
+# Input Output — 8 test cases (stdin → expected stdout)
+
+=== Test Case 1 ===
+--- input ---
+Ada
+3 4
+--- expected output ---
+Hello, Ada!
+7
+12
+
+=== Test Case 2 ===
+--- input ---
+Grace
+-5 9
+--- expected output ---
+Hello, Grace!
+4
+-45
+
+=== Test Case 3 (hidden) ===
+--- input ---
+Bob
+0 0
+--- expected output ---
+Hello, Bob!
+0
+0
+
+=== Test Case 4 (hidden) ===
+--- input ---
+Linus
+1000000 1000000
+--- expected output ---
+Hello, Linus!
+2000000
+1000000000000
+
+=== Test Case 5 (hidden) ===
+--- input ---
+Zoe
+-7 -8
+--- expected output ---
+Hello, Zoe!
+-15
+56
+
+=== Test Case 6 (hidden) ===
+--- input ---
+Al
+1 -1
+--- expected output ---
+Hello, Al!
+0
+-1
+
+=== Test Case 7 (hidden) ===
+--- input ---
+Katherine
+123456 0
+--- expected output ---
+Hello, Katherine!
+123456
+0
+
+=== Test Case 8 (hidden) ===
+--- input ---
+X
+-1000000 999999
+--- expected output ---
+Hello, X!
+-1
+-999999000000
