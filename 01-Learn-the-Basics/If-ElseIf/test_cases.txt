@@ -1,0 +1,117 @@
+# If ElseIf — 8 test cases (stdin → expected stdout)
+
+=== Test Case 1 ===
+--- input ---
+4
+95
+78
+61
+12
+--- expected output ---
+A
+B
+C
+F
+
+=== Test Case 2 ===
+--- input ---
+3
+90
+89
+40
+--- expected output ---
+A
+B
+D
+
+=== Test Case 3 (hidden) ===
+--- input ---
+1
+0
+--- expected output ---
+F
+
+=== Test Case 4 (hidden) ===
+--- input ---
+1
+100
+--- expected output ---
+A
+
+=== Test Case 5 (hidden) ===
+--- input ---
+8
+39
+40
+59
+60
+74
+75
+89
+90
+--- expected output ---
+F
+D
+D
+C
+C
+B
+B
+A
+
+=== Test Case 6 (hidden) ===
+--- input ---
+5
+60
+60
+60
+60
+60
+--- expected output ---
+C
+C
+C
+C
+C
+
+=== Test Case 7 (hidden) ===
+--- input ---
+2
+74
+75
+--- expected output ---
+C
+B
+
+=== Test Case 8 (hidden) ===
+--- input ---
+14
+100
+99
+90
+89
+76
+75
+74
+60
+59
+41
+40
+39
+1
+0
+--- expected output ---
+A
+A
+A
+B
+B
+B
+C
+C
+D
+D
+D
+F
+F
+F
